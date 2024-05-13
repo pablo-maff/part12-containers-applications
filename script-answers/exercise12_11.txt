@@ -235,20 +235,24 @@ local     todo-backend_redis_data
 [0m[?25h[1m[7m%[27m[1m[0m                                                                                                                                  ]7;file://Mariannes-Mac-mini.local/Users/pab_work/MyProjects/part12-containers-applications/todo-app/todo-backend[0m[27m[24m[Jpab_work@Mariannes-Mac-mini todo-backend % [K[?2004hddocker volumes ls[?2004l
 docker: 'volumes' is not a docker command.
 See 'docker --help'
-[1m[7m%[27m[1m[0m                                                                                                                                  ]7;file://Mariannes-Mac-mini.local/Users/pab_work/MyProjects/part12-containers-applications/todo-app/todo-backend[0m[27m[24m[Jpab_work@Mariannes-Mac-mini todo-backend % [K[?2004hdocker volumes ls004l
-docker: 'volumes' is not a docker command.
-See 'docker --help'
-[1m[7m%[27m[1m[0m                                                                                                                                  ]7;file://Mariannes-Mac-mini.local/Users/pab_work/MyProjects/part12-containers-applications/todo-app/todo-backend[0m[27m[24m[Jpab_work@Mariannes-Mac-mini todo-backend % [K[?2004hdocker volumes lsContainer todo-backend-mongo-1  Stopping                                                                                  0.4s
-[0m[?25h[1A[1A[1A[0G[?25l[+] Running 1/2
-[37m ⠼ Container todo-backend-redis-1  Stopping                                                                                  0.5s
-[0m[34m ⠿ Container todo-backend-mongo-1  Removed                                                                                   0.5s
-[0m[?25h[1A[1A[1A[0G[?25l[34m[+] Running 2/2[0m
-[34m ⠿ Container todo-backend-redis-1  Removed                                                                                   0.6s
-[0m[34m ⠿ Container todo-backend-mongo-1  Removed                                                                                   0.5s
-[0m[37m ⠋ Network todo-backend_default    Removing                                                                                  0.0s
-[0m[?25h[1A[1A[1A[1A[0G[?25l[34m[+] Running 3/3[0m
-[34m ⠿ Container todo-backend-redis-1  Removed                                                                                   0.6s
-[0m[34m ⠿ Container todo-backend-mongo-1  Removed                                                                                   0.5s
+[1m[7m%[27m[1m[0m                                                                                                                                  ]7;file://Mariannes-Mac-mini.local/Users/pab_work/MyProjects/part12-containers-applications/todo-app/todo-backend[0m[27m[24m[Jpab_work@Mariannes-Mac-mini todo-backend % [K[?2004hdocker volumes ls ls [?2004l
+DRIVER    VOLUME NAME
+local     0c2cb50f5383340a85d114da1447ac4a622acc8138060c920e9265b85d9ab811
+local     9da40f258abd5e85d4c3b02b7295f5761aa32422153d00dd5708ecc2f797bdd9
+local     21e35300b53d6733c5c5c846154945131261f700878ff84ada031047ec166fb3
+local     33c767e2c79250862796e2d7e0d0dd55d50690b040a1dbcce98f993b8971f6dc
+local     0997262fbdee04095b31970e0f363768e13eea78ea261180c773c2916c022849
+local     ab3d41b2f779d9308aa17f43c143639d8541888c8c0110d4c1eeffe4f950f0bf
+local     b57a4dcef95437f49c5c3667b1029c35d397f5625f87675da5d6222d64d52327
+local     c7e18fac33c1c59562622d76f3c162f26604783636da6cacb784a23307313b53
+local     d1af67c153e3c9479ac657546901b936b527e009fbf3105dfdf7ab9c3d895864
+local     d9b8925d78980a93cdfa0d491d4d87b51158950a697246a8de867d39e23d00fc
+local     todo-backend_mongo_data
+local     todo-backend_redis_data
+[1m[7m%[27m[1m[0m                                                                                                                                  ]7;file://Mariannes-Mac-mini.local/Users/pab_work/MyProjects/part12-containers-applications/todo-app/todo-backend[0m[27m[24m[Jpab_work@Mariannes-Mac-mini todo-backend % [K[?2004h46a8de867d39e23d00fc
+local     todo-backend_mongo_data
+local     todo-backend_redis_data
+[1m[7m%[27m[1m[0m                                                                                                                                  ]7;file://Mariannes-Mac-mini.local/Users/pab_work/MyProjects/part12-containers-applications/todo-app/todo-backend[0m[27m[24m[Jpab_work@Mariannes-Mac-mini todo-backend % [K[?2004h                                                        0.5s
 [0m[34m ⠿ Network todo-backend_default    Removed                                                                                   0.1s
 [0m[?25h[1m[7m%[27m[1m[0m                                                                                                                                  ]7;file://Mariannes-Mac-mini.local/Users/pab_work/MyProjects/part12-containers-applications/todo-app/todo-backend[0m[27m[24m[Jpab_work@Mariannes-Mac-mini todo-backend % [K[?2004hddocker volumes ls[?2004l
 docker: 'volumes' is not a docker command.
