@@ -26,10 +26,10 @@ router.post('/', async (req, res) => {
 });
 
 router.get('/statistics', async (req, res) => {
-  const addedTodos = await getAsync("added_todos")
+  const addedTodos = await getAsync("added_todos") ?? 0
 
   res.json({
-    "added_todos": parseInt(addedTodos) ?? 0
+    "added_todos": parseInt(addedTodos)
   })
 })
 

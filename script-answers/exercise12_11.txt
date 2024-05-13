@@ -47,31 +47,224 @@ app.js			docker-compose.yml	node_modules		redis
 script-answers	todo-app
 [1m[7m%[27m[1m[0m                                                                                                                                  ]7;file://Mariannes-Mac-mini.local/Users/pab_work/MyProjects/part12-containers-applications[0m[27m[24m[Jpab_work@Mariannes-Mac-mini part12-containers-applications % [K[?2004hccat st cript-answers[1m/[0m[0m [?2004l
 cat: script-answers: Is a directory
-[1m[7m%[27m[1m[0m                                                                                                                                  ]7;file://Mariannes-Mac-mini.local/Users/pab_work/MyProjects/part12-containers-applications[0m[27m[24m[Jpab_work@Mariannes-Mac-mini part12-containers-applications % [K[?2004hcat script-answers[14D[P[15C [16Dc[P[15C [16D[P[15C [16Dl script-answers[15Dls script-answers[15D[?2004l
-exercise12_11.txt	exercise12_3.txt	exercise12_8.txt
-exercise12_2.txt	exercise12_4.txt	helsinki.html
-[1m[7m%[27m[1m[0m                                                                                                                                  ]7;file://Mariannes-Mac-mini.local/Users/pab_work/MyProjects/part12-containers-applications[0m[27m[24m[Jpab_work@Mariannes-Mac-mini part12-containers-applications % [K[?2004hC[0K127.0.0.1:6379> SET added_todos 9001[36C
-OK
-127.0.0.1:6379> [0K127.0.0.1:6379> SET added_todos 9001[0;90;49m value [NX|XX] [GET] [EX seconds|PX milliseconds|EXAT unix-time-seconds|PXAT unix-time-millise[0m[36C[0K127.0.0.1:6379> DEL added_todos[0;90;49m key [key ...][0m[31C[0K127.0.0.1:6379> DEL added_todos[31C
-(integer) 1
-127.0.0.1:6379> [0K127.0.0.1:6379> e[17C[0K127.0.0.1:6379> ex[18C[0K127.0.0.1:6379> exi[19C[0K127.0.0.1:6379> exit[20C[0K127.0.0.1:6379> exit[20C
-[1m[7m%[27m[1m[0m                                                                                                                                  ]7;file://Mariannes-Mac-mini.local/Users/pab_work/MyProjects/part12-containers-applications/todo-app/todo-backend[0m[27m[24m[Jpab_work@Mariannes-Mac-mini todo-backend % [K[?2004heexit[?2004l
-
-Script done, output file is typescript
-[1m[7m%[27m[1m[0m                                                                                                                                  ]7;file://Mariannes-Mac-mini.local/Users/pab_work/MyProjects/part12-containers-applications/todo-app/todo-backend[0m[27m[24m[Jpab_work@Mariannes-Mac-mini todo-backend % [K[?2004hmmv typescript[1m [0m[0m > ../
-[Jold-todo-frontend/  todo-backend/       todo-frontend/[A[0m[27m[24m[43Cmv typescript > ../[K../
-[J[Jscript-answers/  todo-app/[A[0m[27m[24m[43Cmv typescript > ../../[Kscript-answers[1m/[0m[0m/exercise12_11.txt[?2004l
-[Jusage: mv [-f | -i | -n] [-v] source target
-       mv [-f | -i | -n] [-v] source ... directory
-[1m[7m%[27m[1m[0m                                                                                                                                  ]7;file://Mariannes-Mac-mini.local/Users/pab_work/MyProjects/part12-containers-applications/todo-app/todo-backend[0m[27m[24m[Jpab_work@Mariannes-Mac-mini todo-backend % [K[?2004hmv typescript > ../../script-answers/exercise12_11.txt[P[39C [40D.[P[37C [40D[1C[?2004l
+[1m[7m%[27m[1m[0m                                                                                                                                  ]7;file://Mariannes-Mac-mini.local/Users/pab_work/MyProjects/part12-containers-applications[0m[27m[24m[Jpab_work@Mariannes-Mac-mini part12-containers-applicati[P[39C [40D.[P[37C [40D[1C[?2004l
 [1m[7m%[27m[1m[0m                                                                                                                                  ]7;file://Mariannes-Mac-mini.local/Users/pab_work/MyProjects/part12-containers-applications/todo-app/todo-backend[0m[27m[24m[Jpab_work@Mariannes-Mac-mini todo-backend % [K[?2004hlls[?2004l
 Dockerfile		bin			mongo			package-lock.json	routes
 README.md		docker-compose.dev.yml	mongo_data		package.json		util
 app.js			docker-compose.yml	node_modules		redis
-[1m[7m%[27m[1m[0m                                                                                                                                  ]7;file://Mariannes-Mac-mini.local/Users/pab_work/MyProjects/part12-containers-applications/todo-app/todo-backend[0m[27m[24m[Jpab_work@Mariannes-Mac-mini todo-backend % [K[?2004hccd ..[?2004l
-[1m[7m%[27m[1m[0m                                                                                                                                  ]7;file://Mariannes-Mac-mini.local/Users/pab_work/MyProjects/part12-containers-applications/todo-app[0m[27m[24m[Jpab_work@Mariannes-Mac-mini todo-app % [K[?2004hccd ..[?2004l
-[1m[7m%[27m[1m[0m                                                                                                                                  ]7;file://Mariannes-Mac-mini.local/Users/pab_work/MyProjects/part12-containers-applications[0m[27m[24m[Jpab_work@Mariannes-Mac-mini part12-containers-applications % [K[?2004hlls[?2004l
-script-answers	todo-app
-[1m[7m%[27m[1m[0m                                                                                                                                  ]7;file://Mariannes-Mac-mini.local/Users/pab_work/MyProjects/part12-containers-applications[0m[27m[24m[Jpab_work@Mariannes-Mac-mini part12-containers-applications % [K[?2004hccat st cript-answers[1m/[0m[0m [?2004l
-cat: script-answers: Is a directory
-[1m[7m%[27m[1m[0m                                                                                                                                  ]7;file://Mariannes-Mac-mini.local/Users/pab_work/MyProjects/part12-containers-applications[0m[27m[24m[Jpab_work@Mariannes-Mac-mini part12-containers-applications % [K[?2004hcat script-answers[14D[P[15C [16Dc[P[15C [16D[P[15C [16D
+[1m[7m%[ggit add .[?2004l
+[1m[7m%[27m[1m[0m                                                                                                                                  ]7;file://Mariannes-Mac-mini.local/Users/pab_work/MyProjects/part12-containers-applications[0m[27m[24m[Jpab_work@Mariannes-Mac-mini part12-containers-applications % [K[?2004hggit commit -m ''a'd'd'e'd' '1'2'.'1'1' 's'c'r'i'p't'[?2004l
+[main afdda8a] added 12.11 script
+ 2 files changed, 77 insertions(+), 60 deletions(-)
+ create mode 100644 script-answers/exercise12_11.txt
+ delete mode 100644 todo-app/todo-backend/typescript
+[1m[7m%[27m[1m[0m                                                                                                                                  ]7;file://Mariannes-Mac-mini.local/Users/pab_work/MyProjects/part12-containers-applications[0m[27m[24m[Jpab_work@Mariannes-Mac-mini part12-containers-applications % [K[?2004h[7mdocker compose -f docker-compose.dev.yml down[27m
+[K[A[61C[27md[27mo[27mc[27mk[27me[27mr[27m [27mc[27mo[27mm[27mp[27mo[27ms[27me[27m [27m-[27mf[27m [27md[27mo[27mc[27mk[27me[27mr[27m-[27mc[27mo[27mm[27mp[27mo[27ms[27me[27m.[27md[27me[27mv[27m.[27my[27mm[27ml[27m [27md[27mo[27mw[27mn[1B[K[?2004l
+stat /Users/pab_work/MyProjects/part12-containers-applications/docker-compose.dev.yml: no such file or directory
+[1m[7m%[27m[1m[0m                                                                                                                                  ]7;file://Mariannes-Mac-mini.local/Users/pab_work/MyProjects/part12-containers-applications[0m[27m[24m[Jpab_work@Mariannes-Mac-mini part12-containers-applications % [K[?2004hccd todo-app[1m/[0m[0m/todo-backend[1m/[0m[0m [?2004l
+[1m[7m%[27m[1m[0m                                                                                                                                  ]7;file://Mariannes-Mac-mini.local/Users/pab_work/MyProjects/part12-containers-applications/todo-app/todo-backend[0m[27m[24m[Jpab_work@Mariannes-Mac-mini todo-backend % [K[?2004hcd todo-app/todo-backend[24Ddocker compose -f docker-compose.dev.yml down
+[K[K[?2004l
+[1A[1B[0G[?25l[+] Running 0/0
+[37m ⠋ Container todo-backend-mongo-1  Stopping                                                                                  0.1s
+[0m[37m ⠋ Container todo-backend-redis-1  Stopping                                                                                  0.1s
+[0m[?25h[1A[1A[1A[0G[?25l[+] Running 0/2
+[37m ⠙ Container todo-backend-mongo-1  Stopping                                                                                  0.2s
+[0m[37m ⠙ Container todo-backend-redis-1  Stopping                                                                                  0.2s
+[0m[?25h[1A[1A[1A[0G[?25l[+] Running 0/2
+[37m ⠹ Container todo-backend-mongo-1  Stopping                                                                                  0.3s
+[0m[37m ⠹ Container todo-backend-redis-1  Stopping                                                                                  0.3s
+[0m[?25h[1A[1A[1A[0G[?25l[+] Running 0/2
+[37m ⠸ Container todo-backend-mongo-1  Stopping                                                                                  0.4s
+[0m[37m ⠸ Container todo-backend-redis-1  Stopping                                                                                  0.4s
+[0m[?25h[1A[1A[1A[0G[?25l[+] Running 1/2
+[34m ⠿ Container todo-backend-mongo-1  Removed                                                                                   0.5s
+[0m[37m ⠿ Container todo-backend-redis-1  Removing                                                                                  0.5s
+[0m[?25h[1A[1A[1A[0G[?25l[+] Running 1/2
+[34m ⠿ Container todo-backend-mongo-1  Removed                                                                                   0.5s
+[0m[37m ⠿ Container todo-backend-redis-1  Removing                                                                                  0.6s
+[0m[?25h[1A[1A[1A[0G[?25l[34m[+] Running 2/2[0m
+[34m ⠿ Container todo-backend-mongo-1  Removed                                                                                   0.5s
+[0m[34m ⠿ Container todo-backend-redis-1  Removed                                                                                   0.7s
+[0m[?25h[1A[1A[1A[0G[?25l[34m[+] Running 2/2[0m
+[34m ⠿ Container todo-backend-mongo-1  Removed                                                                                   0.5s
+[0m[34m ⠿ Container todo-backend-redis-1  Removed                                                                                   0.7s
+[0m[37m ⠋ Network todo-backend_default    Removing                                                                                  0.1s
+[0m[?25h[1A[1A[1A[1A[0G[?25l[34m[+] Running 3/3[0m
+[34m ⠿ Container todo-backend-mongo-1  Removed                                                                                   0.5s
+[0m[34m ⠿ Container todo-backend-redis-1  Removed                                                                                   0.7s
+[0m[34m ⠿ Network todo-backend_default    Removed                                                                                   0.1s
+[0m[?25h[1m[7m%[27m[1m[0m                                                                                                                                  ]7;file://Mariannes-Mac-mini.local/Users/pab_work/MyProjects/part12-containers-applications/todo-app/todo-backend[0m[27m[24m[Jpab_work@Mariannes-Mac-mini todo-backend % [K[?2004hdocker compose -f docker-compose.dev.yml down
+[K[K[A[43C[?2004l[1B
+[1A[1B[0G[?25l[+] Running 0/0
+[37m ⠋ Container todo-backend-redis-1  Stopping                                                                                  0.1s
+[0m[37m ⠋ Container todo-backend-mongo-1  Stopping                                                                                  0.1s
+[0m[?25h[1A[1A[1A[0G[?25l[+] Running 0/2
+[37m ⠙ Container todo-backend-redis-1  Stopping                                                                                  0.2s
+[0m[37m ⠙ Container todo-backend-mongo-1  Stopping                                                                                  0.2s
+[0m[?25h[1A[1A[1A[0G[?25l[+] Running 0/2
+[37m ⠹ Container todo-backend-redis-1  Stopping                                                                                  0.3s
+[0m[37m ⠹ Container todo-backend-mongo-1  Stopping                                                                                  0.3s
+[0m[?25h[1A[1A[1A[0G[?25l[+] Running 0/2
+[37m ⠸ Container todo-backend-redis-1  Stopping                                                                                  0.4s
+[0m[37m ⠸ Container todo-backend-mongo-1  Stopping                                                                                  0.4s
+[0m[?25h[1A[1A[1A[0G[?25l[+] Running 0/2
+[37m ⠼ Container todo-backend-redis-1  Stopping                                                                                  0.5s
+[0m[37m ⠼ Container todo-backend-mongo-1  Stopping                                                                                  0.5s
+[0m[?25h[1A[1A[1A[0G[?25l[+] Running 1/2
+[37m ⠴ Container todo-backend-redis-1  Stopping                                                                                  0.6s
+[0m[34m ⠿ Container todo-backend-mongo-1  Removed                                                                                   0.5s
+[0m[?25h[1A[1A[1A[0G[?25l[34m[+] Running 2/2[0m
+[34m ⠿ Container todo-backend-redis-1  Removed                                                                                   0.6s
+[0m[34m ⠿ Container todo-backend-mongo-1  Removed                                                                                   0.5s
+[0m[37m ⠋ Netwodocker compose -f docker-compose.dev.yml down
+[K[K[A[43C[?2004l[1B
+[1A[1B[0G[?25l[+] Running 0/0
+[37m ⠋ Container todo-backend-redis-1  Stopping                                                                                  0.1s
+[0m[37m ⠋ Container todo-backend-mongo-1  Stopping                                                                                  0.1s
+[0m[?25h[1A[1A[1A[0G[?25l[+] Runnidocker compose -f docker-compose.dev.yml down
+[K[K[A[43C[?2004l[1B
+[1A[1B[0G[?25l[+] Running 0/0
+[37m ⠋ Container todo-backend-redis-1  Stopping                                                                                  0.1s
+[0m[37m ⠋ Container todo-backend-mongo-1  Stopping                                                                                  0.1s
+[0m[?25h[1A[1A[1A[0G[?25l[+] Running 0/2
+[37m ⠙ Container todo-backend-redis-1  Stopping                                                                                  0.2s
+[0m[37m ⠙ Container todo-backend-mongo-1  Stopping                                                                     [34m ⠿ Container todo-backend-redis-1  Removed                                                                                   0.6s
+[0m[34m ⠿ Container todo-backend-mongo-1  Removed                                                                                   0.5s
+[0m[34m ⠿ Network todo-backend_default    Removed                                                                                   0.3s
+[0m[?25h[1m[7m%[27m[1m[0m                                                                                                                                  ]7;file://Mariannes-Mac-mini.local/Users/pab_work/MyProjects/part12-containers-applications/todo-app/todo-backend[0m[27m[24m[Jpab_work@Mariannes-Mac-mini todo-backend % [K[?2004hdocker compose -f docker-compose.dev.yml down
+[K[K[A[43C[1B[A[43Ccd todo-app/todo-backend                     [1B[K[A[67C[24Ddocker compose -f docker-compose.dev.yml down[1B[K[K[A[43C                                             [1B[K[A[43Cdocker compose -f docker-compose.dev.yml down[1B[K[K[A[88C    down[1B[K[K[?2004l
+[1A[1B[0G[?25l[+] Running 0/0
+[37m ⠋ Container todo-backend-mongo-1  Stopping                                                                                  0.1s
+[0m[37m ⠋ Container todo-backend-redis-1  Stopping                                                                                  0.1s
+[0m[?25h[1A[1A[1A[0G[?25l[+] Running 0/2
+[37m ⠙ Container todo-backend-mongo-1  Stopping                                                                                  0.2s
+[0m[37m ⠙ Container todo-backend-redis-1  Stopping                                                                                  0.2s
+[0m[?25h[1A[1A[1A[0G[?25l[+] Running 0/2
+[37m ⠹ Container todo-backend-mongo-1  Stopping                                                                                  0.3s
+[0m[37m ⠹ Container todo-backend-redis-1  Stopping                                                                                  0.3s
+[0m[?25h[1A[1A[1A[0G[?25l[+] Running 0/2
+[37m ⠸ Container todo-backend-mongo-1  Stopping                                                                                  0.4s
+[0m[37m ⠿ Container todo-backend-redis-1  Removing                                                                                  0.4s
+[0m[?25h[1A[1A[1A[0G[?25l[34m[+] Running 2/2[0m
+[34m ⠿ Container todo-backend-mongo-1  Removed                                                                                   0.5s
+[0m[34m ⠿ Container todo-backend-redis-1  Removed                                                                                   0.4s
+[0m[?25h[1A[1A[1A[0G[?25l[34m[+] Running 2/2[0m
+[34m ⠿ Container todo-backend-mongo-1  Removed                                                                                   0.5s
+[0m[34m ⠿ Container todo-backend-redis-1  Removed                                                                                   0.4s
+[0m[37m ⠋ Network todo-backend_default    Removing                                                                                  0.1s
+[0m[?25h[1A[1A[1A[1A[0G[?25l[34m[+] Running 3/3[0m
+[34m ⠿ Container todo-backend-mongo-1  Removed                                                                                   0.5s
+[0m[34m ⠿ Container todo-backend-redis-1  Removed                                                                                   0.4s
+[0m[34m ⠿ Network todo-backend_default    Removed                                                                                   0.1s
+[0m[?25h[1m[7m%[27m[1m[0m                                                                                                                                  ]7;file://Mariannes-Mac-mini.local/Users/pab_work/MyProjects/part12-containers-applications/todo-app/todo-backend[0m[27m[24m[Jpab_work@Mariannes-Mac-mini todo-backend % [K[?2004hdocker compose -f docker-compose.dev.yml down
+[K[K[?2004l
+[1A[1B[0G[?25l[+] Running 0/0
+[37m ⠋ Container todo-backend-mongo-1  Stopping                                                                                  0.1s
+[0m[37m ⠋ Container todo-backend-redis-1  Stopping                                                                                  0.1s
+[0m[?25h[1A[1A[1A[0G[?25l[+] Running 0/2
+[37m ⠙ Container todo-backend-mongo-1  Stopping                                                                                  0.2s
+[0m[37m ⠙ Container todo-backend-redis-1  Stopping                                                                                  0.2s
+[0m[?25h[1A[1A[1A[0G[?25l[+] Running 0/2
+[37m ⠹ Container todo-backend-mongo-1  Stopping                                                                                  0.3s
+[0m[37m ⠹ Container todo-backend-redis-1  Stopping                                                                                  0.3s
+[0m[?25h[1A[1A[1A[0G[?25l[+] Running 0/2
+[37m ⠸ Container todo-backend-mongo-1  Stopping                                                                                  0.4s
+[0m[37m ⠸ Container todo-backend-redis-1  Stopping                                                                                  0.4s
+[0m[?25h[1A[1A[1A[0G[?25l[34m[+] Running 2/2[0m
+[34m ⠿ Container todo-backend-mongo-1  Removed                                                                                   0.5s
+[0m[34m ⠿ Container todo-backend-redis-1  Removed                                                                                   0.4s
+[0m[37m ⠋ Network todo-backend_default    Removing                                                                                  0.0s
+[0m[?25h[1A[1A[1A[1A[0G[?25l[34m[+] Running 3/3[0m
+[34m ⠿ Container todo-backend-mongo-1  Removed                                                                                   0.5s
+[0m[34m ⠿ Container todo-backend-redis-1  Removed                                                                                   0.4s
+[0m[34m ⠿ Network todo-backend_default    Removed                                                                                   0.1s
+[0m[?25h[1m[7m%[27m[1m[0m                               docker compose -f docker-compose.dev.yml down
+[K[K[?2004l
+[1A[1B[0G[?25l[+] Running 0/0
+[37m ⠋ Container todo-backend-mongo-1  Stopping                                                                                  0.1s
+[0m[37m ⠋ Container todo-backend-redis-1  Stopdocker compose -f docker-compose.dev.yml down
+[K[K[?2004l
+[1A[1B[0G[?25l[+] Running 0/0
+[37m ⠋ Container todo-backend-redis-1  Stopping                                                                                  0.1s
+[0m[37m ⠋ Container todo-backend-mongo-1  Stopping                                                                                  0.1s
+[0m[?25h[1A[1A[1A[0G[?25l[+] Running 0/2
+[37m ⠙ Container todo-backend-redis-1  Stopping                                                                                  0.2s
+[0m[37m ⠙ Container todo-backend-mongo-1  Stopping                                                                                  0.2s
+[0m[?25h[1A[1A[1A[0G[?25l[+] Running 0/2
+[37m ⠹ Container todo-backend-redis-1  Stopping                                                                                  0.3s
+[0m[37m ⠹ Container todo-backend-mongo-1  Stopping                                                                                  0.3s
+[0m[?25h[1A[1A[1A[0G[?25l[+] Running 0/2
+[37m ⠸ Container todo-backend-redis-1  Stopping                                                                                  0.4s
+[0m[37m ⠸ Container todo-backend-mongo-1  Stopping                                                                                  0.4s
+[0m[?25h[1A[1A[1A[0G[?25l[+] Running 1/2
+[37m ⠼ Container todo-backend-redis-1  Stopping                                                                                  0.5s
+[0m[34m ⠿ Container todo-backend-mongo-1  Removed                                                                                   0.5s
+[0m[?25h[1A[1A[1A[0G[?25l[34m[+] Running 2/2[0m
+[34m ⠿ Container todo-backend-redis-1  Removed                                                                                   0.6s
+[0m[34m ⠿ Container todo-backend-mongo-1  Removed                                                                                   0.5s
+[0m[37m ⠋ Network todo-backend_default    Removing                                                                                  0.0s
+[0m[?25h[1A[1A[1A[1A[0G[?25l[34m[+] Running 3/3[0m
+[34m ⠿ Container todo-backend-redis-1  Removed                                                                                   0.6s
+[0m[34m ⠿ Contdocker compose -f docker-compose.dev.yml down
+[K[K[?2004l
+[1A[1B[0G[?25l[+] Running 0/0
+[37m ⠋ Container todo-backend-redis-1  Stopping                                                                                  0.1s
+[0m[37m ⠋ Container todo-backend-mongo-1  Stopping                                                                                  0.1s
+[0m[?25h[1A[1A[1A[0G[?25l[+] Running 0/2
+[37m ⠙ Container todo-backend-redis-1  Stopping                                                                                  0.2s
+[0m[37m ⠙ Container todo-backend-mongo-1  Stopddocker volumes ls[?2004l
+docker: 'volumes' is not a docker command.
+See 'docker --help'
+[1m[7m%[27m[1m[0m                                                                                                                                  ]7;file://Mariannes-Mac-mini.local/Users/pab_work/MyProjects/part12-containers-applications/todo-app/todo-backend[0m[27m[24m[Jpab_work@Mariannes-Mac-mini todo-backend % [K[?2004hdocker volumes ls ls [?2004l
+DRIVER    VOLUME NAME
+local     0c2cb50f5383340a85d114da1447ac4a622acc8138060c920e9265b85d9ab811
+local     9da40f258abd5e85d4c3b02b7295f5761aa32422153d00dd5708ecc2f797bdd9
+local     21e35300b53d6733c5c5c846154945131261f700878ff84ada031047ec166fb3
+local     33c767e2c79250862796e2d7e0d0dd55d50690b040a1dbcce98f993b8971f6dc
+local     0997262fbdee04095b31970e0f363768e13eea78ea261180c773c2916c022849
+local     ab3d41b2f779d9308aa17f43c143639d8541888c8c0110d4c1eeffe4f950f0bf
+local     b57a4dcef95437f49c5c3667b1029c35d397f5625f87675da5d6222d64d52327
+local     c7e18fac33c1c59562622d76f3c162f26604783636da6cacb784a23307313b53
+local     d1af67c153e3c9479ac657546901b936b527e009fbf3105dfdf7ab9c3d895864
+local     d9b8925d78980a93cdfa0d491d4d87b51158950a697246a8de867d39e23d00fc
+local     todo-backend_mongo_data
+local     todo-backend_redis_data
+[1m[7m%[27m[1m[0m                                                                                                                                  ]7;file://Mariannes-Mac-mini.local/Users/pab_work/MyProjects/part12-containers-applications/todo-app/todo-backend[0m[27m[24m[Jpab_work@Mariannes-Mac-mini todo-backend % [K[?2004h                                                                                   0.6s
+[0m[34m ⠿ Container todo-backend-mongo-1  Removed                                                                                   0.5s
+[0m[34m ⠿ Network todo-backend_default    Removed                                                                                   0.1s
+[0m[?25h[1m[7m%[27m[1m[0m                                                                                                                                  ]7;file://Mariannes-Mac-mini.local/Users/pab_work/MyProjects/part12-containers-applications/todo-app/todo-backend[0m[27m[24m[Jpab_work@Mariannes-Mac-mini todo-backend % [K[?2004hddocker volumes ls[?2004l
+docker: 'volumes' is not a docker command.
+See 'docker --help'
+[1m[7m%[27m[1m[0m                                                                                                                                  ]7;file://Mariannes-Mac-mini.local/Users/pab_work/MyProjects/part12-containers-applications/todo-app/todo-backend[0m[27m[24m[Jpab_work@Mariannes-Mac-mini todo-backend % [K[?2004hdocker volumes ls004l
+docker: 'volumes' is not a docker command.
+See 'docker --help'
+[1m[7m%[27m[1m[0m                                                                                                                                  ]7;file://Mariannes-Mac-mini.local/Users/pab_work/MyProjects/part12-containers-applications/todo-app/todo-backend[0m[27m[24m[Jpab_work@Mariannes-Mac-mini todo-backend % [K[?2004hdocker volumes lsContainer todo-backend-mongo-1  Stopping                                                                                  0.4s
+[0m[?25h[1A[1A[1A[0G[?25l[+] Running 1/2
+[37m ⠼ Container todo-backend-redis-1  Stopping                                                                                  0.5s
+[0m[34m ⠿ Container todo-backend-mongo-1  Removed                                                                                   0.5s
+[0m[?25h[1A[1A[1A[0G[?25l[34m[+] Running 2/2[0m
+[34m ⠿ Container todo-backend-redis-1  Removed                                                                                   0.6s
+[0m[34m ⠿ Container todo-backend-mongo-1  Removed                                                                                   0.5s
+[0m[37m ⠋ Network todo-backend_default    Removing                                                                                  0.0s
+[0m[?25h[1A[1A[1A[1A[0G[?25l[34m[+] Running 3/3[0m
+[34m ⠿ Container todo-backend-redis-1  Removed                                                                                   0.6s
+[0m[34m ⠿ Container todo-backend-mongo-1  Removed                                                                                   0.5s
+[0m[34m ⠿ Network todo-backend_default    Removed                                                                                   0.1s
+[0m[?25h[1m[7m%[27m[1m[0m                                                                                                                                  ]7;file://Mariannes-Mac-mini.local/Users/pab_work/MyProjects/part12-containers-applications/todo-app/todo-backend[0m[27m[24m[Jpab_work@Mariannes-Mac-mini todo-backend % [K[?2004hddocker volumes ls[?2004l
+docker: 'volumes' is not a docker command.
+See 'docker --help'
+[1m[7m%[27m[1m[0m                                                                                                                                  ]7;file://Mariannes-Mac-mini.local/Users/pab_work/MyProjects/part12-containers-applications/todo-app/todo-backend[0m[27m[24m[Jpab_work@Mariannes-Mac-mini todo-backend % [K[?2004hdocker volumes ls ls [?2004l
+DRIVER    VOLUME NAME
+local     0c2cb50f5383340a85d114da1447ac4a622acc8138060c920e9265b85d9ab811
+local     9da40f258abd5e85d4c3b02b7295f5761aa32422153d00dd5708ecc2f797bdd9
+local     21e35300b53d6733c5c5c846154945131261f700878ff84ada031047ec166fb3
+local     33c767e2c79250862796e2d7e0d0dd55d50690b040a1dbcce98f993b8971f6dc
+local     0997262fbdee04095b31970e0f363768e13eea78ea261180c773c2916c022849
+local     ab3d41b2f779d9308aa17f43c143639d8541888c8c0110d4c1eeffe4f950f0bf
+local     b57a4dcef95437f49c5c3667b1029c35d397f5625f87675da5d6222d64d52327
+local     c7e18fac33c1c59562622d76f3c162f26604783636da6cacb784a23307313b53
+local     d1af67c153e3c9479ac657546901b936b527e009fbf3105dfdf7ab9c3d895864
+local     d9b8925d78980a93cdfa0d491d4d87b51158950a697246a8de867d39e23d00fc
+local     todo-backend_mongo_data
+local     todo-backend_redis_data
+[1m[7m%[27m[1m[0m                                                                                                                                  ]7;file://Mariannes-Mac-mini.local/Users/pab_work/MyProjects/part12-containers-applications/todo-app/todo-backend[0m[27m[24m[Jpab_work@Mariannes-Mac-mini todo-backend % [K[?2004h
