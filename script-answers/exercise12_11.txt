@@ -229,9 +229,8 @@ local     d1af67c153e3c9479ac657546901b936b527e009fbf3105dfdf7ab9c3d895864
 local     d9b8925d78980a93cdfa0d491d4d87b51158950a697246a8de867d39e23d00fc
 local     todo-backend_mongo_data
 local     todo-backend_redis_data
-[1m[7m%[27m[1m[0m                                                                                                                                  ]7;file://Mariannes-Mac-mini.local/Users/pab_work/MyProjects/part12-containers-applications/todo-app/todo-backend[0m[27m[24m[Jpab_work@Mariannes-Mac-mini todo-backend % [K[?2004h                                                                                   0.6s
-[0m[34m ⠿ Container todo-backend-mongo-1  Removed                                                                                   0.5s
-[0m[34m ⠿ Network todo-backend_default    Removed                                                                                   0.1s
+[1m[7m%[27m[1m[0m                                                                                                                                  ]7;file://Mariannes-Mac-mini.local/Users/pab_work/MyProjects/part12-containers-applications/todo-app/todo-backend[0m[27m[24m[Jpab_work@Mariannes-Mac-mini todo-backend % [K[?2004hcclear[?2004l
+[H[2J[1m[7m%[27m[1m[0m                                                                                                                                  ]7;file://Mariannes-Mac-mini.local/Users/pab_work/MyProjects/part12-containers-applications/todo-app/todo-backend[0m[27m[24m[Jpab_work@Mariannes-Mac-mini todo-backend % [K[?2004h 0.1s
 [0m[?25h[1m[7m%[27m[1m[0m                                                                                                                                  ]7;file://Mariannes-Mac-mini.local/Users/pab_work/MyProjects/part12-containers-applications/todo-app/todo-backend[0m[27m[24m[Jpab_work@Mariannes-Mac-mini todo-backend % [K[?2004hddocker volumes ls[?2004l
 docker: 'volumes' is not a docker command.
 See 'docker --help'
@@ -249,12 +248,9 @@ local     d1af67c153e3c9479ac657546901b936b527e009fbf3105dfdf7ab9c3d895864
 local     d9b8925d78980a93cdfa0d491d4d87b51158950a697246a8de867d39e23d00fc
 local     todo-backend_mongo_data
 local     todo-backend_redis_data
-[1m[7m%[27m[1m[0m                                                                                                                                  ]7;file://Mariannes-Mac-mini.local/Users/pab_work/MyProjects/part12-containers-applications/todo-app/todo-backend[0m[27m[24m[Jpab_work@Mariannes-Mac-mini todo-backend % [K[?2004h46a8de867d39e23d00fc
-local     todo-backend_mongo_data
-local     todo-backend_redis_data
-[1m[7m%[27m[1m[0m                                                                                                                                  ]7;file://Mariannes-Mac-mini.local/Users/pab_work/MyProjects/part12-containers-applications/todo-app/todo-backend[0m[27m[24m[Jpab_work@Mariannes-Mac-mini todo-backend % [K[?2004h                                                        0.5s
-[0m[34m ⠿ Network todo-backend_default    Removed                                                                                   0.1s
-[0m[?25h[1m[7m%[27m[1m[0m                                                                                                                                  ]7;file://Mariannes-Mac-mini.local/Users/pab_work/MyProjects/part12-containers-applications/todo-app/todo-backend[0m[27m[24m[Jpab_work@Mariannes-Mac-mini todo-backend % [K[?2004hddocker volumes ls[?2004l
+[1m[7m%[27m[1m[0m                                                                                                                                  ]7;file://Mariannes-Mac-mini.local/Users/pab_work/MyProjects/part12-containers-applications/todo-app/todo-backend[0m[27m[24m[Jpab_work@Mariannes-Mac-mini todo-backend % [K[?2004hcclear[?2004l
+[H[2J[1m[7m%[27m[1m[0m                                                                                                                                  ]7;file://Mariannes-Mac-mini.local/Users/pab_work/MyProjects/part12-containers-applications/todo-app/todo-backend[0m[27m[24m[Jpab_work@Mariannes-Mac-mini todo-backend % [K[?2004h[27m[24m[Jpab_work@Mariannes-Mac-mini todo-backend % [K[?2004hcclear[?2004l
+[H[2J[1m[7m%[27m[1m[0m                                                                                                                                  ]7;file://Mariannes-Mac-mini.local/Users/pab_work/MyProjects/part12-containers-applications/todo-app/todo-backend[0m[27m[24m[Jpab_work@Mariannes-Mac-mini todo-backend % [K[?2004h ]7;file://Mariannes-Mac-mini.local/Users/pab_work/MyProjects/part12-containers-applications/todo-app/todo-backend[0m[27m[24m[Jpab_work@Mariannes-Mac-mini todo-backend % [K[?2004hddocker volumes ls[?2004l
 docker: 'volumes' is not a docker command.
 See 'docker --help'
 [1m[7m%[27m[1m[0m                                                                                                                                  ]7;file://Mariannes-Mac-mini.local/Users/pab_work/MyProjects/part12-containers-applications/todo-app/todo-backend[0m[27m[24m[Jpab_work@Mariannes-Mac-mini todo-backend % [K[?2004hdocker volumes ls ls [?2004l
@@ -271,4 +267,5 @@ local     d1af67c153e3c9479ac657546901b936b527e009fbf3105dfdf7ab9c3d895864
 local     d9b8925d78980a93cdfa0d491d4d87b51158950a697246a8de867d39e23d00fc
 local     todo-backend_mongo_data
 local     todo-backend_redis_data
-[1m[7m%[27m[1m[0m                                                                                                                                  ]7;file://Mariannes-Mac-mini.local/Users/pab_work/MyProjects/part12-containers-applications/todo-app/todo-backend[0m[27m[24m[Jpab_work@Mariannes-Mac-mini todo-backend % [K[?2004h
+[1m[7m%[27m[1m[0m                                                                                                                                  ]7;file://Mariannes-Mac-mini.local/Users/pab_work/MyProjects/part12-containers-applications/todo-app/todo-backend[0m[27m[24m[Jpab_work@Mariannes-Mac-mini todo-backend % [K[?2004hcclear[?2004l
+[H[2J[1m[7m%[27m[1m[0m                                                                                                                                  ]7;file://Mariannes-Mac-mini.local/Users/pab_work/MyProjects/part12-containers-applications/todo-app/todo-backend[0m[27m[24m[Jpab_work@Mariannes-Mac-mini todo-backend % [K[?2004h
