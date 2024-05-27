@@ -23,12 +23,12 @@ const Todo = ({ todo, onClickComplete, onClickDelete }) => {
   )
 
   return (
-    <div style={{ display: 'flex', justifyContent: 'space-between', maxWidth: '70%', margin: 'auto' }}>
+    <li style={{ display: 'flex', justifyContent: 'space-between', maxWidth: '70%', margin: 'auto' }}>
       <span>
         {todo.text}
       </span>
       {todo.done ? doneInfo : notDoneInfo}
-    </div>
+    </li>
   )
 }
 
