@@ -4,7 +4,7 @@ const todoName = "Test Todo"
 
 test.describe('Todo app', () => {
   test.beforeEach(async ({ page, request }) => {
-    await request.post('http:localhost:3001/todos/reset')
+    await request.post('http://host.docker.internal:3001/todos/reset')
     await page.goto('http://localhost:4173/')
   })
 
@@ -13,6 +13,10 @@ test.describe('Todo app', () => {
     await page.getByRole('button', { name: /submit/i }).click()
 
     const newTodo = await page.getByRole('list')
+    console.log("BEFORE waitFor", await page.content())
+
+    await newTodo.waitFor()
+    console.log(await page.content())
     const newTodoName = await newTodo.getByText(todoName)
     await expect(newTodoName).toBeVisible()
 

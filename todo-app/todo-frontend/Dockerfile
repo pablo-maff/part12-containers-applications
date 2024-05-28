@@ -1,11 +1,17 @@
 FROM node:20 AS build-stage
+
+# RUN npx -y playwright@1.44.1 install --with-deps
+
 WORKDIR /usr/src/app
 
 COPY . .
 
 RUN npm ci
 
-ENV VITE_BACKEND_URL="http://host.docker.internal:3001/" CI="TRUE"
+ENV VITE_BACKEND_URL="http://host.docker.internal:3001/" \
+    CI="TRUE"
+
+# RUN npm run test
 
 RUN npm run build
 

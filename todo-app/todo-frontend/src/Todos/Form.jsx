@@ -11,6 +11,7 @@ const TodoForm = ({ createTodo }) => {
   const handleSubmit = (e) => {
     e.preventDefault()
     createTodo({ text })
+    setText("")
   }
 
   return (
