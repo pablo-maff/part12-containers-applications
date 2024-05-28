@@ -1,7 +1,12 @@
-const MONGO_URL = process.env.MONGO_URL || undefined
-const REDIS_URL = process.env.REDIS_URL || undefined
+const REDIS_URL = process.env.NODE_ENV === 'test'
+  ? process.env.TEST_REDIS_URL
+  : process.env.REDIS_URL
+
+const MONGO_URL = process.env.NODE_ENV === 'test'
+  ? process.env.TEST_MONGO_URL
+  : process.env.MONGO_URL
 
 module.exports = {
-  MONGO_URL,//: 'mongodb://the_username:the_password@localhost:3456/the_database',
-  REDIS_URL//: '//localhost:6378'
+  MONGO_URL,
+  REDIS_URL
 }

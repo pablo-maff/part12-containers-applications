@@ -5,7 +5,7 @@ const todoName = "Test Todo"
 
 test.describe('Todo app', () => {
   test.beforeEach(async ({ page, request }) => {
-    await request.post(`${process.env.VITE_BACKEND_URL}/todos/reset`)
+    await request.post(`${process.env.VITE_BACKEND_URL}/testing/reset`)
     await page.goto('/')
   })
 

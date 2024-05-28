@@ -25,12 +25,6 @@ router.post('/', async (req, res) => {
   res.send(todo);
 });
 
-router.post('/reset', async (_, res) => {
-  await Todo.deleteMany({})
-
-  res.sendStatus(204).end()
-})
-
 router.get('/statistics', async (req, res) => {
   const addedTodos = await getAsync("added_todos") ?? 0
 

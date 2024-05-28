@@ -1,0 +1,17 @@
+services:
+  mongo-test:
+    image: mongo
+    ports:
+      - 3556:27017
+    environment:
+      MONGO_INITDB_ROOT_USERNAME: root
+      MONGO_INITDB_ROOT_PASSWORD: example
+      MONGO_INITDB_DATABASE: test_database
+    volumes:
+      - ./mongo/mongo-init-test.js:/docker-entrypoint-initdb.d/mongo-init-test.js
+
+  redis-test:
+    image: redis
+    ports:
+      - 3557:6379
+    command: ['redis-server', '--appendonly', 'yes'] # Overwrite the CMD
