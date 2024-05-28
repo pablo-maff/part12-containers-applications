@@ -8,7 +8,7 @@ COPY . .
 
 RUN npm ci --include=dev
 
-ENV VITE_BACKEND_URL="http://host.docker.internal:3001/" \
+ENV VITE_BACKEND_URL="http://host.docker.internal:3001" \
     CI="TRUE"
 
 RUN npm run test
