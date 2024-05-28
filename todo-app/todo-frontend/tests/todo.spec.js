@@ -5,7 +5,7 @@ const todoName = "Test Todo"
 test.describe('Todo app', () => {
   test.beforeEach(async ({ page, request }) => {
     await request.post('http:localhost:3001/todos/reset')
-    await page.goto('http://localhost:5173/')
+    await page.goto('http://localhost:4173/')
   })
 
   test('can create a todo and change its importance', async ({ page }) => {
